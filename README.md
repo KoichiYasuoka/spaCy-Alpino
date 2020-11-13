@@ -68,7 +68,7 @@ Try [notebook](https://colab.research.google.com/github/KoichiYasuoka/spaCy-Alpi
 ## Installation without Alpino
 
 ```sh
-pip3 install spacy_alpino
+pip3 install spacy_alpino --user
 ```
 
 `spacy_alpino.load()` invokes [Alpino WebAPI](https://urd2.let.rug.nl/~vannoord/bin/alpino).
