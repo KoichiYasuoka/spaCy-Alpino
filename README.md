@@ -35,7 +35,7 @@ komt   VERB  ═══════╝═╝═╝<╝ ║ ccomp
 .      PUNCT <══════════════╝ punct
 ```
 
-## Installation for Linux (Debian)
+## Installation for Linux (Debian, Ubuntu, Kali)
 
 First, install [xqilla](http://xqilla.sourceforge.net/) and necessary packages:
 
@@ -60,14 +60,6 @@ And at last, install spaCy-Alpino:
 ```sh
 pip3 install spacy_alpino --user
 ```
-
-## Installation for Linux (Ubuntu)
-
-Same as Debian.
-
-## Installation for Linux (Kali)
-
-Same as Debian.
 
 ## Installation for Google Colaboratory
 
