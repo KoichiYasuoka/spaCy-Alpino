@@ -6,7 +6,7 @@ URL="https://github.com/KoichiYasuoka/spaCy-Alpino"
 
 setuptools.setup(
   name="spacy_alpino",
-  version="0.3.0",
+  version="0.4.0",
   description="Alpino wrapper for spaCy",
   long_description=long_description,
   long_description_content_type="text/markdown",
