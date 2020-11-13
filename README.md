@@ -35,7 +35,7 @@ komt   VERB  ═══════╝═╝═╝<╝ ║ ccomp
 .      PUNCT <══════════════╝ punct
 ```
 
-## Installation for Linux (Debian, Ubuntu, Kali)
+## Installation for Linux (Debian, Ubuntu, Kali) with Alpino
 
 First, install [xqilla](http://xqilla.sourceforge.net/) and necessary packages:
 
@@ -64,4 +64,12 @@ pip3 install spacy_alpino --user
 ## Installation for Google Colaboratory
 
 Try [notebook](https://colab.research.google.com/github/KoichiYasuoka/spaCy-Alpino/blob/main/spacy_alpino.ipynb).
+
+## Installation without Alpino
+
+```sh
+pip3 install spacy_alpino
+```
+
+`spacy_alpino.load()` invokes [Alpino WebAPI](https://urd2.let.rug.nl/~vannoord/bin/alpino).
 
