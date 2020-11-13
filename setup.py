@@ -5,7 +5,7 @@ with open("README.md","r",encoding="utf-8") as r:
 URL="https://github.com/KoichiYasuoka/spaCy-Alpino"
 
 setuptools.setup(
-  name="spacy_syncha",
+  name="spacy_alpino",
   version="0.1.0",
   description="Alpino wrapper for spaCy",
   long_description=long_description,
@@ -18,7 +18,7 @@ setuptools.setup(
   packages=setuptools.find_packages(),
   install_requires=["spacy>=2.2.2","deplacy>=1.8.1"],
   python_requires=">=3.6",
-  package_data={"spacy_syncha":["./alpino2ud.sh","./universal_dependencies.xq"]},
+  package_data={"spacy_alpino":["./alpino2ud.sh","./universal_dependencies.xq"]},
   classifiers=[
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
