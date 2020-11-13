@@ -35,3 +35,29 @@ komt   VERB  ═══════╝═╝═╝<╝ ║ ccomp
 .      PUNCT <══════════════╝ punct
 ```
 
+## Installation for Linux (Debian)
+
+First, install [xqilla](https://xqilla.sourceforge.net/) and necessary packages:
+
+```sh
+sudo apt update
+sudo apt install xqilla libxss1 python3-pip python3-dev g++ curl
+```
+
+Second, install Alpino:
+
+```sh
+cd /tmp
+curl -L https://www.let.rug.nl/vannoord/alp/Alpino/versions/binary/latest.tar.gz | tar xzf -
+sudo mkdir -p /usr/local/bin
+sudo mv Alpino /usr/local/Alpino
+( echo '#! /bin/sh' ; echo 'exec /usr/local/Alpino/bin/Alpino "$@"' ) > Alpino
+sudo install Alpino /usr/local/bin
+```
+
+And at last, install spaCy-Alpino:
+
+```sh
+pip3 install spacy_alpino --user
+```
+
