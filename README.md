@@ -71,5 +71,5 @@ Same as Debian.
 
 ## Installation for Google Colaboratory
 
-Try [notebook](https://colab.research.google.com/github/KoichiYasuoka/spaCy-Alpino/blob/master/spacy_alpino.ipynb).
+Try [notebook](https://colab.research.google.com/github/KoichiYasuoka/spaCy-Alpino/blob/main/spacy_alpino.ipynb).
 
