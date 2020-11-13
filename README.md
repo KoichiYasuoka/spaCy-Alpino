@@ -15,8 +15,8 @@
 ...
 1	Zorg	zorgen	VERB	WW|pv|tgw|ev	_	0	ROOT	_	_
 2	dat	dat	SCONJ	VG|onder	_	8	mark	_	_
-3	daar	daar	ADV	VNW|aanw|adv-pron|obl|vol|3o|getal	_	8obl	_	_
-4	geen	geen	DET	VNW|onbep|det|stan|prenom|zonder|agr	_	6det	_	_
+3	daar	daar	ADV	VNW|aanw|adv-pron|obl|vol|3o|getal	_	8	obl	_	_
+4	geen	geen	DET	VNW|onbep|det|stan|prenom|zonder|agr	_	6	det	_	_
 5	zwarte	zwart	ADJ	ADJ|prenom|basis|met-e|stan	_	6	amod	_	_
 6	hond	hond	NOUN	N|soort|ev|basis|zijd|stan	_	8	nsubj	_	_
 7	tussen	tussen	ADP	VZ|fin	_	3	case	_	_
