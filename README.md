@@ -37,7 +37,7 @@ komt   VERB  ═══════╝═╝═╝<╝ ║ ccomp
 
 ## Installation for Linux (Debian)
 
-First, install [xqilla](https://xqilla.sourceforge.net/) and necessary packages:
+First, install [xqilla](http://xqilla.sourceforge.net/) and necessary packages:
 
 ```sh
 sudo apt update
@@ -60,4 +60,12 @@ And at last, install spaCy-Alpino:
 ```sh
 pip3 install spacy_alpino --user
 ```
+
+## Installation for Linux (Ubuntu)
+
+Same as Debian.
+
+## Installation for Linux (Kali)
+
+Same as Debian.
 
