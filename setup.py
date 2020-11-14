@@ -6,7 +6,7 @@ URL="https://github.com/KoichiYasuoka/spaCy-Alpino"
 
 setuptools.setup(
   name="spacy_alpino",
-  version="0.4.2",
+  version="0.5.0",
   description="Alpino wrapper for spaCy",
   long_description=long_description,
   long_description_content_type="text/markdown",
@@ -28,6 +28,7 @@ setuptools.setup(
   ],
   project_urls={
     "Alpino":"http://www.let.rug.nl/vannoord/alp/Alpino/",
+    "lassy2ud":"https://github.com/gossebouma/lassy2ud",
     "Source":URL,
     "Tracker":URL+"/issues"
   }

@@ -35,6 +35,8 @@ komt   VERB  ═══════╝═╝═╝<╝ ║ ccomp
 .      PUNCT <══════════════╝ punct
 ```
 
+`spacy_alpino.load()` invokes Alpino with [lassy2ud](https://github.com/gossebouma/lassy2ud).
+
 ## Installation for Linux (Debian, Ubuntu, Kali) with Alpino
 
 First, install [xqilla](http://xqilla.sourceforge.net/) and necessary packages:
