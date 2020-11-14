@@ -2,7 +2,7 @@
 
 # spaCy-Alpino
 
-[Alpino](http://www.let.rug.nl/vannoord/alp/Alpino/) wrapper for spaCy
+[Alpino](http://www.let.rug.nl/vannoord/alp/Alpino/) wrapper for [spaCy](https://spacy.io)
 
 ## Basic Usage
 
