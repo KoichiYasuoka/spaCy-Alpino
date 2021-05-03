@@ -6,7 +6,7 @@ URL="https://github.com/KoichiYasuoka/spaCy-Alpino"
 
 setuptools.setup(
   name="spacy_alpino",
-  version="0.7.2",
+  version="0.7.3",
   description="Alpino wrapper for spaCy",
   long_description=long_description,
   long_description_content_type="text/markdown",
@@ -16,7 +16,7 @@ setuptools.setup(
   license="LGPL",
   keywords="spacy nlp",
   packages=setuptools.find_packages(),
-  install_requires=["spacy>=2.2.2","deplacy>=1.9.2"],
+  install_requires=["spacy>=2.2.2","deplacy>=1.9.7"],
   python_requires=">=3.6",
   package_data={"spacy_alpino":["./alpino2ud.sh","./universal_dependencies.xq"]},
   classifiers=[
