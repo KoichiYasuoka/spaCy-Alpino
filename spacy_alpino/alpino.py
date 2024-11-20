@@ -65,7 +65,8 @@ class AlpinoParser(object):
         heads.append(0)
         deps.append(vs.add(deprel))
       else:
-        heads.append(int(head)-int(id))
+        h=int(head)-int(id)
+        heads.append(2**64+h if h<0 else h)
         deps.append(vs.add(deprel))
     a=numpy.array(list(zip(lemmas,pos,tags,deps,heads)),dtype="uint64")
     doc.from_array([LEMMA,POS,TAG,DEP,HEAD],a)
