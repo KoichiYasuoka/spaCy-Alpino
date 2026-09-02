@@ -36,8 +36,8 @@ class AlpinoParser(object):
       import urllib.request,urllib.parse
       with urllib.request.urlopen(ALPINO_URL+"alpino?words="+urllib.parse.quote(t)) as r:
         q=r.read().decode("utf-8")
-      i=q.index("conllu?tmp/")
-      with urllib.request.urlopen(ALPINO_URL+q[i:q.index("'",i)]) as r:
+      i=q.index("conllu?")
+      with urllib.request.urlopen(ALPINO_URL+q[i:q.index(">",i)-1]) as r:
         u=r.read().decode("utf-8")
     vs=self.vocab.strings
     r=vs.add("ROOT")
